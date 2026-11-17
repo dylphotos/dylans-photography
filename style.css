@@ -8,6 +8,7 @@ p {
 */
 body {
   font-family: "Didact Gothic", sans-serif;
+  font-size: 2em;
 }
 .navbar {
   list-style-type: none;
