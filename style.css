@@ -23,10 +23,9 @@ p {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  background-color: black;
-  opacity: 0;
+  background-color: #00000000;
   transition: 0.3s;
 }
 .navbar li a:hover {
-  opacity: 0.3;
+  background-color: #0000004d;
 }
