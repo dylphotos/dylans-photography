@@ -8,7 +8,7 @@ p {
 */
 body {
   font-family: "Didact Gothic", sans-serif;
-  font-size: 2em;
+  font-size: 25px;
 }
 .navbar {
   list-style-type: none;
@@ -20,9 +20,11 @@ body {
 }
 .navtitle {
   float: left;
+  padding: 10px;
 }
 .navother {
   float: right;
+  padding: 10px;
 }
 .navbar li a {
   display: block;
