@@ -1,4 +1,6 @@
+@import url('https://api.fonts.coollabs.io/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 p {
   padding: 35px;
   background-color: light-blue;
+  font-family: "Raleway", sans-serif;
 }
