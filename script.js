@@ -1,10 +1,3 @@
-let imgi = 1;
-showimg(imgi);
-
-function toimg(n) {
-  showimg(imgi = n);
-}
-
 function showimg(n) {
   let i;
   let carousel = document.getElementsByClassName("carousel");
@@ -25,3 +18,10 @@ function showimg(n) {
   dots[imgi-1].className += " active";
   //setTimeout(showimg, 5000);
 }
+
+function toimg(n) {
+  showimg(imgi = n);
+}
+
+let imgi = 1;
+showimg(imgi);
