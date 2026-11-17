@@ -2,13 +2,12 @@ let imgi = 1;
 
 function showimg(n) {
   let i;
-  let num = n;
   let carimg = document.getElementsByClassName("carimg");
   let dots = document.getElementsByClassName("dot");
   if (num > carimg.length) {
     num = 1;
   }
-  if (n < 1) {
+  if (num < 1) {
     num = carimg.length;
   }
   for (i = 0; i < carimg.length; i++) {
@@ -23,7 +22,7 @@ function showimg(n) {
 }
 
 function toimg(n) {
-  showimg(imgi = n);
+  showimg(num = n);
 }
 
-showimg(imgi);
+showimg(num = imgi);
