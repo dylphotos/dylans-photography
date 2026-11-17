@@ -8,4 +8,25 @@ p {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  overflow: hidden;
+  border-bottom: 3px;
+  border-color: #aaaaaa;
+}
+.navtitle {
+  float: left;
+}
+.navother {
+  float: right;
+}
+.navbar li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: black;
+  opacity: 0;
+  transition: 0.3s;
+}
+.navbar li a:hover {
+  opacity: 0.3;
 }
