@@ -13,7 +13,7 @@ function showimg(n) {
     imgi = 1;
   }
   if (n < 1) {
-    imgi = carousel.length();
+    imgi = carousel.length;
   }
   for (i = 0; i < carousel.length; i++) {
     carousel[i].style.display = "none";
