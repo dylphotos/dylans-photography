@@ -1,3 +1,5 @@
+let imgi = 1;
+
 function showimg(n) {
   let i;
   let carimg = document.getElementsByClassName("carimg");
@@ -23,5 +25,4 @@ function toimg(n) {
   showimg(imgi = n);
 }
 
-let imgi = 1;
 showimg(imgi);
