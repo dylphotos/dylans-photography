@@ -1,20 +1,20 @@
 function showimg(n) {
   let i;
-  let carousel = document.getElementsByClassName("carousel");
+  let carimg = document.getElementsByClassName("carimg");
   let dots = document.getElementsByClassName("dot");
-  if (n > carousel.length) {
+  if (n > carimg.length) {
     imgi = 1;
   }
   if (n < 1) {
-    imgi = carousel.length;
+    imgi = carimg.length;
   }
-  for (i = 0; i < carousel.length; i++) {
-    carousel[i].style.display = "none";
+  for (i = 0; i < carimg.length; i++) {
+    carimg[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  carousel[imgi-1].style.display = "block";
+  carimg[imgi-1].style.display = "block";
   dots[imgi-1].className += " active";
   //setTimeout(showimg, 5000);
 }
