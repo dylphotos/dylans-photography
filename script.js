@@ -1,4 +1,4 @@
-let imgi = 1;
+let num;
 
 function showimg(n) {
   let i;
@@ -25,4 +25,4 @@ function toimg(n) {
   showimg(num = n);
 }
 
-showimg(num = imgi);
+showimg(num = 1);
