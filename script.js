@@ -23,5 +23,5 @@ function showimg(n) {
   }
   carousel[imgi-1].style.display = "block";
   dots[imgi-1].className += " active";
-  setTimeout(showimg, 5000);
+  //setTimeout(showimg, 5000);
 }
