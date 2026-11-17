@@ -4,3 +4,8 @@ p {
   background-color: CornflowerBlue;
   font-family: "Raleway", sans-serif;
 }
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
