@@ -18,6 +18,7 @@ function showimg(n) {
   }
   carimg[num-1].style.display = "block";
   dots[num-1].className += " active";
+  num += 1
   setTimeout(showimg, 5000);
 }
 
