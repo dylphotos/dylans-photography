@@ -38,7 +38,7 @@ body {
   transition: 0.3s;
 }
 .navbar li a:hover {
-  background-color: #00000033;
+  background-color: #00000011;
 }
 .carousel {
   position: relative;
