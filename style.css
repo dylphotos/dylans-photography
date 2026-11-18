@@ -44,11 +44,11 @@ body {
 }
 .carimg {
   display: none;
-  object-fit: cover;
   height: 60vh;
 }
 .carimg img {
   width: 100vw;
+  object-fit: cover;
 }
 .caption {
   color: #f2f2f2;
