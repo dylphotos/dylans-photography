@@ -1,6 +1,7 @@
+let num;
+
 function showimg(n) {
   let i;
-  let num = n;
   let carimg = document.getElementsByClassName("carimg");
   let dots = document.getElementsByClassName("dot");
   if (num > carimg.length) {
@@ -20,4 +21,4 @@ function showimg(n) {
   setTimeout(showimg, 5000);
 }
 
-showimg(1);
+showimg(num = 1);
