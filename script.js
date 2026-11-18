@@ -19,5 +19,3 @@ function showimg(n) {
   dots[num-1].className += " active";
   //setTimeout(showimg, 5000);
 }
-
-showimg(1);
