@@ -44,6 +44,9 @@ body {
 }
 .carimg {
   display: none;
+  object-fit: cover;
+  width: 100vw;
+  height: 60vh;
 }
 .caption {
   color: #f2f2f2;
