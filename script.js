@@ -1,4 +1,4 @@
-let num;
+let num = 1;
 
 function showimg(n) {
   let i;
@@ -22,4 +22,4 @@ function showimg(n) {
   setTimeout(showimg, 5000);
 }
 
-showimg(num = 1);
+showimg(1);
