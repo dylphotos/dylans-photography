@@ -9,6 +9,8 @@ p {
 body {
   font-family: "Didact Gothic", sans-serif;
   font-size: 25px;
+  margin: 0;
+  padding: 0;
 }
 .navbar {
   list-style-type: none;
@@ -36,7 +38,7 @@ body {
   transition: 0.3s;
 }
 .navbar li a:hover {
-  background-color: #0000004d;
+  background-color: #00000033;
 }
 .carousel {
   position: relative;
