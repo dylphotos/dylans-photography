@@ -1,4 +1,4 @@
-let num = 1;
+num = 1;
 
 function showimg(n) {
   let i;
