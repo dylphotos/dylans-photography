@@ -1,4 +1,4 @@
-num = 1;
+let num;
 
 function showimg(n) {
   let i;
@@ -18,8 +18,8 @@ function showimg(n) {
   }
   carimg[num-1].style.display = "block";
   dots[num-1].className += " active";
-  num += 1
+  num += 1;
   setTimeout(showimg, 5000);
 }
 
-showimg(1);
+showimg(num = 1);
