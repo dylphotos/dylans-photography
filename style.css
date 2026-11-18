@@ -45,8 +45,10 @@ body {
 .carimg {
   display: none;
   object-fit: cover;
-  width: 100vw;
   height: 60vh;
+}
+.carimg img {
+  width: 100vw;
 }
 .caption {
   color: #f2f2f2;
