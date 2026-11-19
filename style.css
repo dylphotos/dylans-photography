@@ -69,7 +69,7 @@ body {
   width: 100%;
 }
 .overlay.btn {
-  top: 70%;
+  top: 55%;
   font-size: 22px;
   background-color: #eeeeee;
   padding: 14px;
@@ -82,10 +82,15 @@ body {
 .overlay.btn:hover {
   background-color: #dddddd;
 }
+.overlay.btn.gal {
+  left: 45%;
+}
+.overlay.btn.book {
+  right: 45%;
+}
 .caption {
   color: #f2f2f2;
   font-size: 18px;
-  padding: 0 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
