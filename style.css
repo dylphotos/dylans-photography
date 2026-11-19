@@ -56,10 +56,16 @@ body {
 }
 .overlay {
   position: absolute;
-  top: 30%;
   text-align: center;
-  font-size: 40px;
   width: 100%;
+}
+.overlay.title {
+  top: 30%;
+  font-size: 40px;
+}
+.overlay.para {
+  top: 40%;
+  font-size: 28px;
 }
 .caption {
   color: #f2f2f2;
