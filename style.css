@@ -67,6 +67,14 @@ body {
   top: 42%;
   font-size: 24px;
 }
+.overlay.btn {
+  top: 50%;
+  font-size: 18px;
+  background-color: #191919;
+  padding: 14px;
+  border-style: hidden;
+  border-radius: 6px;
+}
 .caption {
   color: #f2f2f2;
   font-size: 18px;
