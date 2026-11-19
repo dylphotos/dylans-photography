@@ -75,6 +75,12 @@ body {
   padding: 14px;
   border-style: hidden;
   border-radius: 18px;
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+.overlay.btn:hover {
+  background-color: #dddddd;
 }
 .caption {
   color: #f2f2f2;
