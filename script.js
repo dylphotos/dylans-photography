@@ -1,6 +1,11 @@
 let num;
+let halt = false;
 
-function showimg(n) {
+function showimg(n, override) {
+  if (halt && !override) {
+    halt = false;
+    return;
+  }
   let i;
   let carimg = document.getElementsByClassName("carimg");
   let dots = document.getElementsByClassName("dot");
@@ -22,4 +27,9 @@ function showimg(n) {
   setTimeout(showimg, 5000);
 }
 
-showimg(num = 1);
+function toimg(n) {
+  halt = true;
+  showimg(n, 1);
+}
+
+showimg(num = 1, 0);
