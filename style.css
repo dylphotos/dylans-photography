@@ -71,7 +71,7 @@ body {
 .overlay.btn {
   top: 55%;
   font-size: 22px;
-  background-color: #eeeeee;
+  background-color: #dddddd;
   padding: 14px;
   border-style: hidden;
   border-radius: 18px;
@@ -80,13 +80,13 @@ body {
   transition: 0.3s;
 }
 .overlay.btn:hover {
-  background-color: #dddddd;
+  background-color: #cccccc;
 }
 .overlay.btn.gal {
   left: 35%;
 }
 .overlay.btn.book {
-  right: 40%;
+  right: 35%;
 }
 .caption {
   color: #f2f2f2;
