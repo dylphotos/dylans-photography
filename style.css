@@ -1,4 +1,7 @@
 @import url('https://api.fonts.coollabs.io/css2?family=Didact+Gothic&display=swap');
+@view-transition {
+  navigation: auto;
+}
 /*
 p {
   padding: 35px;
@@ -19,6 +22,7 @@ body {
   overflow: hidden;
   border-bottom: 3px;
   border-color: #aaaaaa;
+  view-transition-name: navbar;
 }
 .navtitle {
   float: left;
@@ -123,3 +127,7 @@ body {
   visibility: visible;
 }
 */
+
+::view-transition-old(navbar), ::view-transition-new(navbar) {
+  animation: none;
+}
