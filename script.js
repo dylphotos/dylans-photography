@@ -33,3 +33,13 @@ function toimg(n) {
 }
 
 showimg(num = 1, 0);
+
+const io = new IntersectionObserver((entries) => {
+  entries.forEach((e) => {
+    if (!e.isIntersecting) return;
+    e.target.classList.add("doanim");
+    io.unobserve(e.target);
+  });
+}, { threshold: 0.2 });
+
+document.querySelectorAll(".animate").forEach((el) => {io.observe(el)})
