@@ -68,9 +68,9 @@ body {
   font-size: 24px;
 }
 .overlay.btn {
-  top: 50%;
+  top: 70%;
   font-size: 18px;
-  background-color: #191919;
+  background-color: #00000019;
   padding: 14px;
   border-style: hidden;
   border-radius: 6px;
