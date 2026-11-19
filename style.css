@@ -109,3 +109,12 @@ body {
 .active, .dot:hover {
   background-color: #717171;
 }
+.animated {
+  opacity: 0;
+  translate: 0 24px;
+  transition: opacity 0.5s ease, translate 0.5s ease
+}
+.animated.doanim {
+  opacity: 1;
+  translate: 0 0;
+}
