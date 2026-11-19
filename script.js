@@ -31,7 +31,7 @@ function toimg(n) {
   halt = true;
   showimg(num = n, 1);
 }
-
+/*
 const io = new IntersectionObserver((entries) => {
   entries.forEach((e) => {
     if (!e.isIntersecting) return;
@@ -43,3 +43,4 @@ const io = new IntersectionObserver((entries) => {
 document.querySelectorAll(".animate").forEach((el) => {io.observe(el)});
 
 showimg(num = 1, 0);
+*/
