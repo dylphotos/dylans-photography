@@ -41,6 +41,5 @@ const io = new IntersectionObserver((entries) => {
 }, { threshold: 0.2 });
 
 document.querySelectorAll(".animate").forEach((el) => {io.observe(el)});
-
-showimg(num = 1, 0);
 */
+showimg(num = 1, 0);
