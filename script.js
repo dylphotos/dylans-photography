@@ -29,7 +29,7 @@ function showimg(n, override) {
 
 function toimg(n) {
   halt = true;
-  showimg(n, 1);
+  showimg(num = n, 1);
 }
 
 showimg(num = 1, 0);
