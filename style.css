@@ -103,11 +103,9 @@ body {
   font-size: 18px;
   position: absolute;
   bottom: 8px;
-  width: 100%;
+  width: 50%;
   margin: auto;
-  /*
   text-align: center;
-  */
 }
 .dot {
   position: relative;
