@@ -106,6 +106,7 @@ body {
   width: 50%;
   margin: auto;
   text-align: center;
+  background-color: black;
 }
 .dot {
   position: relative;
