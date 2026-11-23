@@ -89,11 +89,15 @@ body {
 }
 .overlay.btn.gal {
   float: left;
+  /*
   left: 42vw;
+  */
 }
 .overlay.btn.book {
   float: right;
+  /*
   right: 45vw;
+  */
 }
 .caption {
   color: #f2f2f2;
