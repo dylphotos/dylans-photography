@@ -105,7 +105,7 @@ body {
 }
 .dot {
   position: relative;
-  bottom: 55vh;
+  bottom: 25vh;
   cursor: pointer;
   height: 15px;
   width: 15px;
