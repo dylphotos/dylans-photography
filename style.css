@@ -104,6 +104,8 @@ body {
   text-align: center;
 }
 .dot {
+  position: relative;
+  bottom: 55vh;
   cursor: pointer;
   height: 15px;
   width: 15px;
