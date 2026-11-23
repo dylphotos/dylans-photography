@@ -64,12 +64,12 @@ body {
   text-align: center;
 }
 .overlay.title {
-  bottom: 55vh;
+  bottom: 50vh;
   font-size: 40px;
   width: 100%;
 }
 .overlay.para {
-  bottom: 52vh;
+  bottom: 50vh;
   font-size: 24px;
   width: 100%;
 }
