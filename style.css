@@ -88,10 +88,12 @@ body {
   background-color: #e1e1e1;
 }
 .overlay.btn.gal {
+  float: left;
   left: 42vw;
 }
 .overlay.btn.book {
-  left: 45vw;
+  float: right;
+  right: 45vw;
 }
 .caption {
   color: #f2f2f2;
