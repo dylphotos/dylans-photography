@@ -64,17 +64,17 @@ body {
   text-align: center;
 }
 .overlay.title {
-  bottom: 52vh;
+  bottom: 50vh;
   font-size: 40px;
   width: 100%;
 }
 .overlay.para {
-  bottom: 55vh;
+  bottom: 53vh;
   font-size: 24px;
   width: 100%;
 }
 .overlay.btn {
-  bottom: 57vh;
+  bottom: 55vh;
   font-size: 22px;
   background-color: #f2f2f2;
   padding: 14px;
