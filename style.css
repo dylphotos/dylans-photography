@@ -59,21 +59,21 @@ body {
   object-fit: cover;
 }
 .overlay {
-  position: absolute;
+  position: relative;
   text-align: center;
 }
 .overlay.title {
-  top: 30%;
+  bottom: 70%;
   font-size: 40px;
   width: 100%;
 }
 .overlay.para {
-  top: 42%;
+  bottom: 58%;
   font-size: 24px;
   width: 100%;
 }
 .overlay.btn {
-  top: 55%;
+  bottom: 45%;
   font-size: 22px;
   background-color: #f2f2f2;
   padding: 14px;
