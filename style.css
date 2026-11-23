@@ -90,11 +90,9 @@ body {
 .overlay.btn.gal {
   left: 42vw;
 }
-/*
 .overlay.btn.book {
-  right: 42vw;
+  left: 45vw;
 }
-*/
 .caption {
   color: #f2f2f2;
   font-size: 18px;
