@@ -25,6 +25,7 @@ body {
   overflow: hidden;
   border-bottom: 3px;
   border-color: #aaaaaa;
+  background-color: white;
   view-transition-name: navbar;
 }
 .navtitle {
