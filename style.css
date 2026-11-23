@@ -16,6 +16,7 @@ body {
   padding: 0;
 }
 .navbar {
+  position: sticky;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -63,17 +64,17 @@ body {
   text-align: center;
 }
 .overlay.title {
-  bottom: 70vh;
+  bottom: 60vh;
   font-size: 40px;
   width: 100%;
 }
 .overlay.para {
-  bottom: 58vh;
+  bottom: 55vh;
   font-size: 24px;
   width: 100%;
 }
 .overlay.btn {
-  bottom: 45vh;
+  bottom: 50vh;
   font-size: 22px;
   background-color: #f2f2f2;
   padding: 14px;
@@ -89,9 +90,11 @@ body {
 .overlay.btn.gal {
   left: 42vw;
 }
+/*
 .overlay.btn.book {
   right: 42vw;
 }
+*/
 .caption {
   color: #f2f2f2;
   font-size: 18px;
